@@ -11,6 +11,9 @@ import { DebitCardComponent } from './components/debit-card/debit-card.component
 import { ClientCardComponent } from './components/client-card/client-card.component';
 import { CardTittleComponent } from './components/card-tittle/card-tittle.component';
 import { RowHighlightedDirective } from './directives/row-highlighted.directive';
+import { ItemLineComponent } from './components/item-line/item-line.component';
+import { CardTextTitleDirective } from './directives/card-text-title.directive';
+import { CardTextItemDirective } from './directives/card-text-item.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { RowHighlightedDirective } from './directives/row-highlighted.directive'
     DebitCardComponent,
     ClientCardComponent,
     CardTittleComponent,
-    RowHighlightedDirective
+    RowHighlightedDirective,
+    ItemLineComponent,
+    CardTextTitleDirective,
+    CardTextItemDirective
 
   ],
   imports: [
