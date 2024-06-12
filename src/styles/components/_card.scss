@@ -11,12 +11,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 10px;
-
-        &--bgColor-blue{
-            background-color: aqua;
     
-    
-        }
 
         &--logo{
             display: flex;
@@ -38,6 +33,7 @@
     &__content {
         max-height: 70%;
         width: 100%;
+        display: block;
 
         &--info {
             padding: 15px;
