@@ -5,8 +5,9 @@ import { Directive, HostBinding, Input } from '@angular/core';
   host: { 'class': 'card-component__header' }
 })
 export class CardHeaderDirective {
-
+  /* 
   @Input()
   @HostBinding('style.backgroundColor')
   color : string = ''
+  */
 }
