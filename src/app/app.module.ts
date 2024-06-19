@@ -9,10 +9,10 @@ import { BalanceCardComponent } from './components/bases/balance-card/balance-ca
 import { DebitCardComponent } from './components/bases/debit-card/debit-card.component';
 import { ClientCardComponent } from './components/bases/client-card/client-card.component';
 import { CardTittleComponent } from './components/card-tittle/card-tittle.component';
-import { RowHighlightedDirective } from './directives/row-highlighted.directive';
+import { RowHighlightedDirective } from './directives/texts/row-highlighted.directive';
 import { ItemLineComponent } from './components/item-line/item-line.component';
-import { CardTextTitleDirective } from './directives/card-text-title.directive';
-import { CardTextItemDirective } from './directives/card-text-item.directive';
+import { CardTextTitleDirective } from './directives/texts/card-text-title.directive';
+import { CardTextItemDirective } from './directives/texts/card-text-item.directive';
 import { CardHeaderDirective } from './directives/bases/card-header.directive';
 import { CardContentDirective } from './directives/bases/card-content.directive';
 import { CardComponent } from './components/bases/card/card.component';
